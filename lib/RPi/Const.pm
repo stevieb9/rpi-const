@@ -158,7 +158,8 @@ __END__
 
 =head1 NAME
 
-RPi::Const - Constant variables for RPi::WiringPi
+RPi::Const - Constant variables for embedded programming, including the RPi::
+family of modules
 
 =head1 SYNOPSIS
 
