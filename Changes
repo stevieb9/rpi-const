@@ -1,5 +1,8 @@
 Revision history for RPi-Const
 
+1.04 UNREL
+        -
+
 1.03    2018-05-29
         - added pwm_defaults tag, constants for default PWM settings
           (closes #2)
