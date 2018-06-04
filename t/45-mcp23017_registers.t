@@ -28,5 +28,7 @@ is MCP23017_GPIOA, 0x12, 'gpioa';
 is MCP23017_GPIOB, 0x13, 'gpiob';
 is MCP23017_OLATA, 0x14, 'olata';
 is MCP23017_OLATB, 0x15, 'olatb';
+is MCP23017_INPUT, 1, 'input';
+is MCP23017_OUTPUT, 0, 'output';
 
 done_testing();

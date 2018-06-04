@@ -192,6 +192,9 @@ use constant {
     MCP23017_GPIOB      => 0x13,
     MCP23017_OLATA      => 0x14,
     MCP23017_OLATB      => 0x15,
+
+    MCP23017_INPUT      => 1,
+    MCP23017_OUTPUT     => 0,
 };
 
 { # MCP23017 GPIO Expander Registers
@@ -219,6 +222,8 @@ use constant {
         MCP23017_GPIOB
         MCP23017_OLATA
         MCP23017_OLATB
+        MCP23017_INPUT
+        MCP23017_OUTPUT
     );
 
     push @EXPORT_OK, @const;
@@ -353,6 +358,9 @@ Hardware register locations for the MCP23107 GPIO Expander
     MCP23017_GPIOB      => 0x13,
     MCP23017_OLATA      => 0x14,
     MCP23017_OLATB      => 0x15,
+    
+    MCP23017_INPUT      => 0,
+    MCP23017_OUTPUT     => 1
 
 =head1 AUTHOR
 
