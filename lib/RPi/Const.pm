@@ -334,7 +334,7 @@ Edge detection states for interrupts.
 
 =head2 :mcp23017_registers
 
-Hardware register locations for the MCP23107 GPIO Expander
+Hardware register locations and related info for the MCP23107 GPIO Expander
 
     MCP23017_IODIRA     => 0x00,
     MCP23017_IODIRB     => 0x01,
@@ -359,8 +359,8 @@ Hardware register locations for the MCP23107 GPIO Expander
     MCP23017_OLATA      => 0x14,
     MCP23017_OLATB      => 0x15,
     
-    MCP23017_INPUT      => 0,
-    MCP23017_OUTPUT     => 1
+    MCP23017_INPUT      => 1,
+    MCP23017_OUTPUT     => 0
 
 =head1 AUTHOR
 
