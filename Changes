@@ -1,5 +1,8 @@
 Revision history for RPi-Const
 
+1.06 UNREL
+    -
+
 1.05    2026-06-11
         - Added :wpi_pin tag (WPI_PIN_BCM, WPI_PIN_WPI) for wiringPi's
           WPIPinType setup variants
