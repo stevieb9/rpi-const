@@ -1,7 +1,8 @@
 Revision history for RPi-Const
 
 1.06 UNREL
-    -
+    - Added :mcp23017_pins tag with named pin numbers A0-A7 (bank A pins
+      0-7) and B0-B7 (bank B pins 8-15)
 
 1.05    2026-06-11
         - Added :wpi_pin tag (WPI_PIN_BCM, WPI_PIN_WPI) for wiringPi's
